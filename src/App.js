@@ -1,14 +1,7 @@
-import './App.css';
-import Button from './Components/Button/Button';
-import NumberInput from './Components/NumberInput/NumberInput';
+import Home from "./Pages/Home/Home";
 
 function App() {
-  return (
-    <div className="App">
-      aaa 
-       <Button disabled={false}>hello</Button>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;

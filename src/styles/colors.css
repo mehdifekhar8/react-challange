@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #06d6a0;
+  --secondary-color: #ffd166;
+  --danger: #ff6b6b;
+  --white: white;
+  --black: black;
+  --disabled: #ccc;
+  --input-focus: #4c9aff;
+  --input-shadow:#b3d4fc;
+  --header-background: #f7f9fd;
+  --card-border: #ededed;
+  --radio-background: #f2f2f2;
+  --radio-background-hover: #e5e5e5;
+}

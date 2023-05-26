@@ -1,0 +1,26 @@
+.operation-radio-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operation-label {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: var(--radio-background);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.operation-label:hover {
+  background-color: var(--radio-background-hover);
+}
+
+.operation-icon {
+  font-size: 18px;
+  margin-left: 5px;
+}
