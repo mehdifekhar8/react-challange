@@ -1,6 +1,6 @@
 .number-input {
-  padding: 8px 12px;
-  font-size: 16px;
+  padding: var(--padding-xs) var(--padding-medium);
+  font-size: var(--font-size-medium);
   border: 1px solid var(--disabled);
   border-radius: 4px;
   transition: border-color 0.3s ease;

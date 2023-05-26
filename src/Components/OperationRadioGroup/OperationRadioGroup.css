@@ -8,8 +8,8 @@
   height: 28px;
   display: flex;
   align-items: center;
-  margin-right: 10px;
-  padding: 6px 10px;
+  margin-right: var(--margin-small);
+  padding: var(--padding-xxs) var(--padding-small);
   border-radius: 4px;
   background-color: var(--radio-background);
   cursor: pointer;
@@ -21,6 +21,6 @@
 }
 
 .operation-icon {
-  font-size: 18px;
-  margin-left: 5px;
+  font-size: var(--font-size-large);
+  margin-left: var(--margin-xxs);
 }
