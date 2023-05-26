@@ -42,7 +42,7 @@ const Calculator = () => {
                 onClick={() => handleRemoveRow(index)}
                 type="danger"
                 icon={FaTrash}
-              ></Button>
+              />
               <Button
                 onClick={() => handleDisabledChange(index)}
                 type={"disable"}
