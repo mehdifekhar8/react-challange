@@ -1,0 +1,13 @@
+.number-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.number-input:focus {
+  outline: none;
+  border-color: #4c9aff;
+  box-shadow: 0 0 5px #b3d4fc;
+}
